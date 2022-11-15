@@ -1,0 +1,10 @@
+name: Demo Workflow
+on: workflow_dispatch
+jobs:
+   first-demo-job:
+     runs-on: macos-12
+     steps: 
+       - name: Printing Hello World
+         run: echo "Hello World!!!"
+       - name: Printing Good Bye
+         run: echo "Good Bye!!!"
